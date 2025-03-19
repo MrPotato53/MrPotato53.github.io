@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Projects | Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>My CS Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="../workexperience/work-experience.html">Work Experience</a></li>
+                <li><a href="../contact/contact.html">Contact</a></li>
+                <li><a href="../hobbies/hobbies.html">Hobbies</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects">
+            <h2>Computer Science Projects</h2>
+            <p>Here are some of the projects I've worked on:</p>
+
+            <div class="project-item">
+                <h3>Project 1: FCOS Object Detector</h3>
+                <div class="project-content">
+                    <div class="project-description">
+                        <p><strong>Technologies used:</strong> Python, Jupyter Notebooks, Computer Vision, Pytorch</p>
+                        <p><strong>Description:</strong> 
+                            Implemented and trained a Fully Convolutional One-Stage Object Detection model using PASCAL VOC 2007 dataset. 
+                            Scaled image to different resolutions with RegNetX-MF400MF backbone, then created feature maps from each in feature pyramid to detect objects of different sizes
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <h3>Project 2: Vending Machine</h3>
+                <div class="project-content">
+                    <div class="project-description">
+                        <p><strong>Technologies used:</strong> Python, React Native, Node JS, REST APIs, Database, Docker, Microservices, Software Engineering, Git, CI/CD, Embedded Programming</p>
+                        <p><strong>Description:</strong> 
+                            Worked with a team of 6 in Software Development environment to design and implement vending machine from scratch, using Python for inventory management, keeping inventory updated in MYSQL database.
+                            Client side communicate via REST API with Javascript Backend Server which handles database communication and Stripe API calls for payment processing. JS server and database hosted on Docker containers with Docker Compose
+                            Created physical machine, running Vending Machine code on Raspberry Pi, vendor interface is website built with React Native used to keep track of inventory and restock
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <h3>Project 3: XV6 OS Implementations</h3>
+                <div class="project-content">
+                    <div class="project-description">
+                        <p><strong>Technologies used:</strong> C programming, GDB Debugging, Valgrind, Docker, Makefile</p>
+                        <p><strong>Description:</strong> 
+                            Implemented various system protocols using the xv6 Operating System running in Docker as a base and directly modified kernel code
+                            Implemented concepts such as File System, Process Scheduler, Memory Mapping, System Calls
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
